@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    margin-top: 10px;
+}
+.hero{
+    background-image: url(../imgs/jero_back.png);
+    background-size: 100%;
+    background-position: center;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+.nav_right{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+}
+.nav_left i{
+    display: none;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.hero .container{
+    display: flex;
+    gap: 176px;
+    align-items: center;
+    padding: 50px 0px;
+}
+.hero_left p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.hero_left h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+}
+.hero_left h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 20px ;
+}
+.hero_Line{
+    display: flex;
+    margin-bottom: 20px;
+}
+.line2{
+    width: 400px;
+}
+.hero_left input{
+    padding: 5px 10px;
+    width: 328px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 22px;
+    color: white;
+    outline: none;
+}
+.hero_left button{
+    background-color: #FA793C;
+    border: 2px solid white;
+    color: white;
+    border-radius: 22px;
+    padding: 5px 20px;
+    width: 150px;
+    margin-left: 20px;
+}
+.hero_top{
+    display: flex;
+    align-items: center;
+  gap: 20px;
+}
+.hero_top h2{
+font-size: 30px;
+margin-right: 110px;
+}
+.hero_right{
+    background-color: white;
+    width: 440px;
+    /* margin-top: 60px; */
+    padding: 20px;
+}
+.i{
+    color: #FA793C;
+}
+.col{
+    color: #FA793C;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hero_right p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.line2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    gap: 20px
+    ;
+}
+.card{
+    border: 1px solid black;
+    width: 381px;
+}
+.disc{
+    font-size: 30px;
+    /* border: 3px solid red; */
+    width: 162px;
+    margin: 25px 0px;
+}
+.main_cardinfo{
+    padding: 15px;
+    
+}
+.main_cardinfo p{
+font-size: 14px;
+margin-bottom: 10px;
+}
+.dis{
+    font-size: 30px;
+    width: 200px;
+    margin: 25px 0px;
+}
+.main_bigcard{
+    background-image: url(../imgs/gora.png);
+    width: 779px;
+    background-size: 100%;
+    color: white;
+    background-position: center;
+    padding: 30px;
+}
+.main_bigcard h2{
+    padding-top: 178px;
+}
+.main_bigcard p{
+    padding-bottom: 30px;
+}
+.main_bigcard2{
+    background-image: url(../imgs/ormon.png);
+    width: 779px;
+    background-size: 100%;
+    color: white;
+    margin-top: 77px;
+    padding: 30px;
+background-position: center;
+}
+.main_cards{
+    margin-top: 10px;
+}
+.main_bigcard2 h2{
+    padding-top: 178px;
+}
+.main_bigcard2 p{
+    padding-bottom: 30px;
+}
+.big_cards{
+    display: flex;
+    gap: 20px;
+}
+.mainmain_card2 h2{
+    font-weight: 100;
+}
+.mainmain_card2 p{
+    margin-bottom: 5px;
+}
+.mainmain_card2{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 382px;
+}
+.block{
+    padding: 15px;
+}
+footer{
+    background-color: black;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+footer .container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 100;
+}
+.main_big .container{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px
+    ;
+}
+.hero_top1 i{
+    display: none;
+}
+.sbs{
+    display: none;
+}
+@media(max-width: 447px){
+    .container{
+        padding: 0px 20px;
+       
+    }
+.nav_right{
+    display: none;
+}
+nav .container{
+    justify-content: center;
+   align-items: center;
+}
+.return{
+    margin-left: 100px;
+}
+.travel{
+    margin-right: 100px;
+}
+.nav_left i{
+    font-size: 24px;
+}
+.hero_left h1{
+    text-align: center;
+    font-size: 40px;
+}
+.hero_left h2{
+    font-size: 24px;
+    text-align: center;
+}
+.hero_left input{
+    padding: 10px 30px;
+    color: white;
+    margin-left: 60px;
+}
+
+.hero_left p{
+    font-size: 14px;
+}
+.main_big .container{
+    flex-wrap: wrap;
+}
+.hero .container{
+    flex-wrap: wrap;
+}
+.hero_left{
+    flex-wrap: wrap;
+}
+.mainmain_card2{
+    width: 401px;
+}
+.mainmain_card2 img{
+    width: 399px;
+    
+}
+.hero_left button{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.sbs{
+    display: block;
+    background-color: #FA793C;
+    border: 2px solid white;
+    color: white;
+    border-radius: 22px;
+    padding: 5px 20px;
+    width: 150px;   
+    margin-left: 90px;
+    padding-bottom: 10px;
+}
+.xm{
+    display: none;
+}
+.hero{
+    background-image: url(../imgs/jero_back.png);
+    background-size: 1000%;
+    background-position: center;
+    height: 430px;
+}
+.hero_Line{
+    width: 447px;
+}
+.cards{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.card{
+    width: 382px;
+    margin-left: 12px;
+}
+.disc{
+    margin-top: 500px;
+}
+.hero_right{
+    flex-direction: column-reverse;
+   margin-top: -100px;
+}
+.nav_left i{
+    display: block;
+}
+.hero_top1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;
+}
+.col{
+    font-size: 22px;
+}
+.hero_right p{
+    font-size: 18px;
+}
+.main_big{
+    flex-wrap: wrap;display: flex;
+}
+.main_bigcard{
+ background-size:210%;
+ background-position: left  ;
+ width: 410px;
+}
+.main_bigcard2{
+    background-size:210%;
+    background-position: left  ;
+    width: 410px;
+   }
+.main_bigcard h2{
+    font-size: 24px;
+}
+.main_bigcard p{
+    font-size: 12px;
+    font-weight: 400;
+    width: 340px;
+}
+.main_bigcard2 h2{
+    font-size: 24px;
+}
+.main_bigcard2 p{
+    font-size: 12px;
+    font-weight: 400;
+    width: 340px;
+}
+.main_cards{
+    flex-wrap: wrap;
+}
+.tog{
+   width: 405px;
+}
+.hero_top i{
+    display: block;
+}
+}
