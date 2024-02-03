@@ -259,7 +259,9 @@ nav .container{
 }
 
 .hero_left p{
-    font-size: 14px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    margin: 0px 12px;
 }
 .main_big .container{
     flex-wrap: wrap;
