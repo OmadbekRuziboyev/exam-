@@ -223,9 +223,10 @@ footer .container{
     display: none;
 }
 @media(max-width: 447px){
+ 
     .container{
-        padding: 0px 20px;
-       
+      padding-left: 15px;
+       padding-right: 15px;
     }
 .nav_right{
     display: none;
@@ -371,4 +372,5 @@ font-size: 20px;
 .hero_top i{
     display: block;
 }
+
 }
